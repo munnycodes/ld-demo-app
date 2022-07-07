@@ -21,7 +21,7 @@ function App() {
       (
         <header className="App-header grid col-start-1 col-span-4 row-start-2">
         <div className="body bg-ldgray px-8 py-4 mb-5 w-full shadow-2xl">
-          <p className="text-m xl:text-4xl">The common <span className="text-ldyellow">{newtext}</span> flow...</p>
+          <p className="text-m xl:text-4xl">The common <span className="text-ldyellow">Application Delivery</span> flow...</p>
         </div>
         <Intro release={release} />
       </header>
