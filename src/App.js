@@ -9,7 +9,7 @@ import Intro from "./components/intro";
 import Release from "./components/release";
 
 function App() {
-  const { qrcode, upperimage, logoversion, cardshow, login, prodHeader, release, newtext } = useFlags();
+  const { qrcode, upperimage, logoversion, cardshow, login, prodHeader, release } = useFlags();
   
   return (
     <div className="App h-screen bg-ldls grid xl:grid-cols-4 grid-cols-3 grid-rows-4 xl:grid-rows-3 bg-cover bg-no-repeat">
