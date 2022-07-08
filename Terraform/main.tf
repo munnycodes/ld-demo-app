@@ -15,8 +15,8 @@ provider "launchdarkly" {
 }
 
 resource "launchdarkly_project" "terraform" {
-  key  = "cody2-ld-demo-tf"
-  name = "cody2-ld-demo-tf"
+  key  = "munny-ld-demo-tf"
+  name = "munny-ld-demo-tf"
 
   tags = [
     "terraform",
